@@ -1,2 +1,5 @@
 # ImageSVD
-Compressão de imagem por SVD e WaterMark
+Compressão de imagens via decomposição SVD.
+Imagens digitais são de extrema importância em áreas como a medicina, a astronomia e a biologia. Geralmente são transmitidas na forma de matrizes muito grandes, que requerem muito espaço de armazenamento. Devido a essa característica, torna-se viável pesquisar por métodos eficazes que otimizem esses processos, contribuindo para  acelerar a transmissão eletrônica de imagens e reduzir seu espaço de armazenamento, sem perdas significativas de informação.
+Um desses métodos é conhecido como Decomposição em Valores Singulares (SVD - Singular Values Decomposition), que possui a grande vantagem de poder ser aplicado em quaisquer tipos de matrizes: quadradas, retangulares, singulares e não singulares.
+Neste trabalho vamos aplicar o método da decomposição SVD em uma matriz e verificar, computacionalmente,  os resultados ao suprimir linhas e colunas tendo como base os valores singulares. Como resultado, podemos obter uma matriz comprimida sem perdas significativas de qualidade.
